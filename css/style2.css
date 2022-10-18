@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    color:#333;
+}
+.con1{
+    width: 400px;
+    height: 200px;
+    background-color:yellow;
+}
+.con1>.menu{
+    width: 400px;
+    height: 40px;
+    background-color: skyblue;
+    display: flex;
+}
+.con1>.menu>li{
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+}
+.con1>.menu>li>a{
+    display: block;
+}
+.con1>.menu>li:nth-child(1){
+    background-color: blueviolet;
+}
+.con1>.gong>li{
+    width: 400px;
+    height: 40px;
+    line-height: 40px;
+}
